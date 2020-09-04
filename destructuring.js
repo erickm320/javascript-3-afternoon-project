@@ -22,8 +22,14 @@ var carDetails = {
 */
 
 //Code Here
-
-
+var {color} = carDetails;
+console.log(color);
+var {make} = carDetails;
+console.log(make);
+var {model} = carDetails;
+console.log(model);
+var {year} = carDetails
+console.log(year);
 
 ////////// PROBLEM 2 //////////
 
@@ -35,6 +41,10 @@ var carDetails = {
 
 function greeting( obj ) {
   //Code Here
+  firstName = '',
+  lastName = '',
+  title = ''
+
   
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
