@@ -96,8 +96,10 @@ const monstersInYourPocket = [{"monster":"Bulbabunny","CP":156},{"monster":"Bulb
 */
 
 //Code Here
-let myStrongest // = monstersInYourPocket.filter(/* Provide Your Callback Here */)
-
+let myStrongest = monstersInYourPocket.filter((element, index,wholeArray) => {
+  return element, index, wholeArray > 200
+})// = monstersInYourPocket.filter(/* Provide Your Callback Here */)
+console.log(myStrongest)
 
 
 ////////// PROBLEM 5 //////////
