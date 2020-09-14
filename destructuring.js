@@ -41,11 +41,9 @@ console.log(year);
 
 function greeting( obj ) {
   //Code Here
-  firstName = '',
-  lastName = '',
-  title = ''
-
-  
+  var{firstName} = obj;
+  var{lastName}= obj;
+  var{title}= obj;
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
@@ -64,6 +62,22 @@ function greeting( obj ) {
 */
 
 //Code Here
+function totalPopulation(obj){
+  utah= 1,
+  california= 2 ,
+  texas= 3,
+  arizona= 4
+
+  var{utah} = obj;
+  var{california} = obj;
+  var{texas} = obj;;
+  var{arizona} = obj;
+
+  return utah + california + texas + arizona
+  
+}
+
+
 
 
 
@@ -78,6 +92,19 @@ function greeting( obj ) {
 */
 
 //Code Here
+function ingredients(obj){
+  carb ='',
+  fat= '',
+  protein = ''
+
+  var{carb}= obj;
+  var{fat}= obj;
+  var{protein}= obj;
+  
+  
+}
+
+
 
 
 
@@ -96,7 +123,13 @@ function greeting( obj ) {
 */
 
 //Code Here
+function largeNumbers({first, second, third}){
+  first = 1,
+  second= 2,
+  third= 3
 
+  return first;
+}
 
 
 ////////// PROBLEM 6 //////////
@@ -108,5 +141,9 @@ function greeting( obj ) {
 */
 
 //Code Here
+function numberGroups({a,b,c}){
+  a = [],
+  b = [],
+  c = []
 
-
+}
