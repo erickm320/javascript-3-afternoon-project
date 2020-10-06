@@ -51,9 +51,9 @@ var employees = [
 */
 
 //Code Here
-function employeeUpdater(
+function employeeUpdater(){
   
-)
+}
 
 
 ////////// PROBLEM 2 //////////
